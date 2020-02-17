@@ -1,0 +1,16 @@
+package com.cts.ui;
+
+import com.cts.service.Greet;
+import com.cts.service.GreetService;
+
+public class DidApp01 {
+
+	public static void main(String[] args) {
+		ApplicationContext context=new ClassPath
+		GreetService gs=context.getBean("g1");
+		System.out.println("lal");
+				
+
+	}
+
+}

@@ -1,0 +1,17 @@
+package com.cts.service;
+
+public class GreetServiceEnhancedImpl implements GreetService{
+	private String greeting;
+	public String greet(String userName) {
+	
+
+	public String getGreeting() {
+		return Greeting;
+	}
+
+	public void setGreeting(String greeting) {
+		Greeting = greeting;
+	}
+	
+
+}
