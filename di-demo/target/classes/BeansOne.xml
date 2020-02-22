@@ -8,11 +8,31 @@
     <bean
     id="g1"   
     class="com.cts.service.Greet"/>
-    <bean
+     <bean
     id="g2"   
     class="com.cts.service.GreetServiceEnhancedImpl">
-    <property name="greeting" value="Hai"/>
+    
+  <!-- <property name="greeting" value="Hai"/> -->
+     <constructor-arg index="0" value="namashkar"></constructor-arg> 
     </bean>
-
+    <bean
+    id="gnp1"   
+    class="com.cts.service.GreetNoteProviderSimpleImpl">
+    </bean>
+    <bean
+    id="g3"   
+    class="com.cts.service.GreetServiceEnhancedImpl2">
+    <property name="gnp" ref="gnp1"/>
+    
+</bean>
+<bean
+    id="g4"   
+    class="com.cts.service.GreetServiceEnhancedImpl2">
+    <property name="gnp">
+    <bean class="com.cts.service.GreetNoteProviderTimeBasedImpl"></bean>
+    </property>
+    
+</bean>
 </beans>
 
+                  

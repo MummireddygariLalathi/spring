@@ -14,6 +14,17 @@ public class GreetServiceEnhancedImpl implements GreetService{
 	public void setGreeting(String greeting) {
 		greeting = greeting;
 	}
+
+
+	public GreetServiceEnhancedImpl() {
+		super();
+	}
+
+
+	public GreetServiceEnhancedImpl(String greeting) {
+		super();
+		this.greeting = greeting;
+	}
 	
 
 }

@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Alchemy\Documents\workspace-spring-tool-suite-4-4.5.1.RELEASE\di-demo\src\main\resources\BeansTwo.xml"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -43,11 +44,14 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.cts"/>
 			<item value="com.cts.did"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="webMVC"/>
+			<item value="AnnotationBasedConfigDemo"/>
 			<item value="di-demo"/>
 		</list>
 		<list key="projectNameTemplate">
